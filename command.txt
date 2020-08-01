@@ -1,0 +1,16 @@
+export WIOTP_IDENTITY_ORGID=u1jw1f
+export WIOTP_IDENTITY_TYPEID=Raspberrypi
+export WIOTP_IDENTITY_DEVICEID=192.168.43.228
+export WIOTP_AUTH_TOKEN=Sidchhibber@21
+cd iot-python-master/samples/psutil/src
+python iotpsutil.py
+
+// for connecting registered rpi to iot watson cloud
+
+
+sudo systemctl disable gpsd.socket
+sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
+sudo gpsmon
+sudo cgps -s
+
+//for gps module

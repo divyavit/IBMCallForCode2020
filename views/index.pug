@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+  body
+   h3 Location
+        table(border='1')
+            thead
+                tr
+                    th Image
+                    th Latitude
+                    th Longitude
+                    th Time
+            tbody
+                each item in records    
+                    tr.content
+                        td <img class="logo" src='/images/${item._id}.png' alt="My_Logo">
+                        td=item.latitude
+                        td=item.longitude
+                        td=item.time
+        .script(type="javascript")
+        document.getElementById('imageBox').src = "img/apple_" + total + ".png";

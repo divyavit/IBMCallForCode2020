@@ -1,0 +1,25 @@
+{
+  "name": "ibmcallforcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image_classification.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "express": "^4.17.1",
+    "gps": "^0.6.0",
+    "ibm-watson": "^5.6.1",
+    "kalman": "0.0.2",
+    "pug": "^3.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "request-promise-native": "^1.0.9",
+    "serialport": "^9.0.0",
+    "sylvester": "0.0.21",
+    "twilio": "^3.48.1"
+  }
+}
