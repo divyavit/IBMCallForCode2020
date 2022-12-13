@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@cloudant/cloudant": "^4.2.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gps": "^0.6.0",
     "ibm-watson": "^5.6.1",
     "kalman": "0.0.2",
